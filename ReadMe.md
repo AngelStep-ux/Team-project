@@ -1,0 +1,2 @@
+# L4aESTSEH03zX9iMp3NlvSOzhfCTJ9-grFghqPl0xq1TCAp1er3SUTYNanmktUVW1BFQqRkHYm9wX3fOKxJzTCGHkjqh7Qq-DKeqIIP7ueGux0SlfjEx16Z5RAa1AioDh6bP6XgJ_pGHFSWyF0y8Q
+# pip install vk_api 
