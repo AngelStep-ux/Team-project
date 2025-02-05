@@ -9,7 +9,6 @@ def connect_to_db():
         print(f"Ошибка подключения к базе данных: {e}")
         return None
 
-
 def create_tables(conn):
     cursor = conn.cursor()
     try:
@@ -47,3 +46,9 @@ def create_tables(conn):
         print(f"Ошибка создания таблиц: {e}")
     finally:
         cursor.close()
+
+if __name__ == "__main__":
+    conn = connect_to_db()
+    if conn is not None:
+        create_tables(conn)
+        conn.close()  
